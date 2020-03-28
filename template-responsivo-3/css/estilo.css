@@ -1,0 +1,303 @@
+body {
+    background: rgba(248,79,114) !important;
+}
+
+/* MENU HEADER */
+#nav-menu ul li a {
+    color: white;
+    margin: .25em .5em;
+    font-size: 1.05em;
+    font-weight: 300;
+    transition-duration: .75s;
+}
+
+#nav-menu ul li a:hover {
+    text-shadow: 5px 5px 10px #fff;
+    transition-duration: .75s;
+}
+
+div.header-redes-sociais {
+    display: inline-flex !important; 
+}
+
+a.btn-contato {
+    background: white !important;
+    color: #F84F72 !important;
+    font-weight: 600 !important;
+}
+
+a.btn-contato:hover {
+    background: #F84F72 !important;
+    color: white !important;
+    border: 1px solid white;
+}
+
+/* FIM MENU HEADER */
+
+.col-transparent {
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    height: 100px !important;
+    width: 200px !important;
+    background: rgba(0,0,0,.2) !important;
+    margin-right: 5px;
+    border: 2px solid rgba(255,255,255,.05) !important;
+    transition-duration: 1s !important;
+}
+
+.col-transparent:hover {
+    position: relative;
+    bottom: 0px;
+    top: -20px;
+    padding-top: 0px;
+    height: 120px !important;
+    transition-duration: 1s !important;
+}
+.col-transparent p {
+    text-align: center;
+    color: #fff;
+    margin-top: .25em;
+}
+
+/* Carousel */
+
+li.indicadores {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    background: #9A9DA0 !important;
+    margin: auto .5em !important;
+}
+
+/* Carousel */
+
+
+/* CEO */
+
+section#ceo {
+    background: url("../img/office-2-bw.jpg") no-repeat center !important;
+}
+
+/* Thumb CEO */
+
+div.ceo {
+    display: none;
+    border: 2px solid white;
+    transition-duration: 2s !important;
+}
+
+div.ceo:hover {
+    opacity:0.7;
+	text-align: justify;
+	color: #000000;
+    transition-duration: 2s !important;
+}
+
+div.ceo-hover:hover div.ceo {
+    display: grid !important;
+    width: 180px !important;
+    height: 210px !important;
+    background: rgba(248,79,114,.75);
+    text-align: center !important;
+    margin: -3em 1em -.5em -1.1em;
+    transition-duration: 2s !important;
+}
+
+/* Conteudo interno da Thumb CEO */
+div.ceo h3 {
+    font-size: 1em !important;
+    text-transform: uppercase !important;
+    margin-top: 1em !important;
+    color: #fff;
+}
+
+div.ceo-hover h4 {
+    font-size: 1em !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+    color: #fff;
+    margin-top: -2em !important;  
+}
+
+div.ceo-links a  {
+    margin-right: 5px !important;
+    transition-duration: .75s !important;
+}
+
+div.ceo-links a:hover  {
+    font-weight: bolder !important;
+    color: rgba(248,79,114,.75) !important;
+    transition-duration: .75s !important;
+}
+/* FIM Conteudo interno da Thumb CEO */
+/* FIM CEO */
+
+/* Mapa do Site */
+
+ul.list-style-none li {
+    margin: .45rem !important;
+}
+
+ul.list-style-none li a {
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+ul.list-style-none li a:hover {
+    color: rgba(248,79,114,1) !important;
+    text-decoration: blink; !important;
+}
+
+ul li.primeiro {
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+/* FIM Mapa do Site */
+
+
+
+iframe.google-maps {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .mediaqueries {
+    display: inline;
+    color: red;        
+}  
+    h2.xl,h2.lg,h2.md,h2.sm {
+        display: none !important;
+    }  
+    
+    
+    /* Formatação do menu & itens internos */
+    nav.nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    div.header-redes-sociais a {
+        margin-right: 1em !important;
+    }
+    
+    div.contato {
+        order: 0 !important;
+        margin-left: -5px !important;
+    }
+    
+    div.header-redes-sociais {
+        order: 1 !important;
+    }    
+    /* FIM Formatação do menu & itens internos */
+    
+    /* Social Networks Info */
+    section#media-info {
+        max-height: auto !important;
+    }
+
+    .info {
+        font-size: 2.25em !important;
+        margin-top: 0 !important;
+    }
+
+    section#media-info h2 {
+        font-size: 1.25em !important;
+    }
+
+    section#media-info h3 {
+        font-size: .75em !important;
+    }
+
+    /* Social Networks Info */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mediaqueries {
+    display: inline;
+    color: yellow;
+}
+    h2.xl,h2.lg,h2.md,h2.xsm {
+        display: none !important;
+    }
+
+    /* Formatação do menu & itens internos */
+    nav.nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    div.header-redes-sociais a {
+        margin-right: 1em !important;
+    }
+    
+    div.contato {
+        order: 0 !important;
+        margin-left: -5px !important;
+    }
+    
+    div.header-redes-sociais {
+        order: 1 !important;
+    }    
+    /* FIM Formatação do menu & itens internos */
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mediaqueries {
+    display: inline;
+    color: blue;
+}
+    h2.xl,h2.lg,h2.sm,h2.xsm {
+        display: none !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mediaqueries {
+    display: inline;
+    color: green;
+}
+    h2.xl,h2.md,h2.sm,h2.xsm {
+        display: none !important;
+    }
+    iframe.google-maps {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        min-width: 100% !important;
+        min-height: 800px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mediaqueries {
+    display: inline;
+    color: orange;
+}
+    h2.lg,h2.md,h2.sm,h2.xsm {
+        display: none !important;
+    }
+}

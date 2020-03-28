@@ -1,0 +1,200 @@
+
+body {
+    /*background: #1c1c1c !important; */
+    /* tom de roxo 56088c */
+    /* outro tom de roxo 210534 */ 
+    /* um tm de cinza escuro 1c1c1c */
+
+}
+
+/* Menu de navegação */
+
+nav ul li a {
+    color: #fff !important;
+    font-size: 1rem;
+    transition-duration: .35s !important;
+    margin-right: .5rem !important;
+}
+
+nav ul li a:hover {
+    color:  !important;
+    transition-duration: .35s !important;
+}
+
+/*
+.btn-contato {
+    background: #fff !important;
+    color: #1c1c1c !important;
+    font-weight: 600 !important;
+}
+
+.btn-contato:hover {
+    background: #1c1c1c !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+*/
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    width: 260px;
+}
+
+ul.dropdown-menu li a {
+    color: #ff0059 !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;    
+}
+
+ul.dropdown-menu li a:hover {
+    color: #1c1c1c !important;
+    font-weight: 500 !important;     
+}
+
+.menu-tabs li a {
+    color: #484E53 !important;
+    font-weight: 500 !important;    
+}
+
+.menu-tabs li a:hover {
+    border-top: 1px solid orange !important;
+    font-weight: 500 !important;    
+}
+/* FIM Menu de navegação */
+
+/* Slides */
+
+div.slides ol li {
+    width: 100% !important;
+    height: .7em !important;
+    margin: 0 !important;
+    background: rgba(100,100,100,.6);
+    transition-duration: 1s !important;
+}
+
+div.slides ol li.active {
+    background: rgba(255,0,0,.6);
+    transition-duration: 1s !important;
+}
+
+.slide-inner-box {
+    background: rgba(100,100,100,.5);
+    font-weight: 300 !important;
+    text-align: justify;
+    padding: 1em 2em;
+    margin: 0px !important;
+    min-height: 300px !important;
+}
+
+.slide-inner-box h3 {
+        font-weight: 400 !important;
+        letter-spacing: .1em;
+    }
+
+/* Slides */
+
+/* BTN Voltar ao topo */
+
+#btn-voltar {
+    dislay: block;
+    position: fixed !important;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    opacity: .8;
+}      
+
+#btn-voltar:hover {
+    text-color: white !important;
+    opacity:1;
+}
+/* BTN Voltar ao topo */   
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    #coluna-centro {
+        order: 0 !important;
+    }
+    #coluna-esquerda {
+        order: 1 !important;
+    }
+    
+    #coluna-direita {
+        order: 2 !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    #coluna-centro {
+        order: 0 !important;
+    }
+    #coluna-esquerda {
+        order: 1 !important;
+    }
+    
+    #coluna-direita {
+        order: 2 !important;
+    }    
+}
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    #coluna-centro {
+        order: 0 !important;
+    }
+    #coluna-esquerda {
+        order: 1 !important;
+    }
+    
+    #coluna-direita {
+        order: 2 !important;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

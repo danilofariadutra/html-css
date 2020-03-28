@@ -1,0 +1,252 @@
+.borda-red {
+    border: 1px solid red;            
+}
+.borda-blue {
+    border: 1px solid blue;            
+}
+.borda-yellow {
+    border: 1px solid yellow;            
+}
+.borda-black {
+    border: 1px solid black;            
+}
+
+.borda-white {
+    border: 1px solid white;            
+}
+
+.width-1 {
+    width: 100px !important;
+}
+
+.width-2 {
+    width: 200px !important;
+}
+
+.width-3 {
+    width: 300px !important;
+}
+
+.width-4 {
+    width: 400px !important;
+}
+
+.width-5 {
+    width: 500px !important;
+}
+
+.width-6 {
+    width: 600px !important;
+}
+
+.width-7 {
+    width: 700px !important;
+}
+
+.width-8 {
+    width: 800px !important;
+}
+
+.width-9 {
+    width: 900px !important;
+}
+
+.width-10 {
+    width: 1000px !important;
+}
+
+.height-1 {
+    height: 100px !important;
+}
+
+.height-2 {
+    height: 200px !important;
+}
+
+.height-3 {
+    height: 300px !important;
+}
+
+.height-4 {
+    height: 400px !important;
+}
+
+.height-5 {
+    height: 500px !important;
+}
+
+.height-6 {
+    height: 600px !important;
+}
+
+.height-7 {
+    height: 700px !important;
+}
+
+.height-8 {
+    height: 800px !important;
+}
+
+.height-9 {
+    height: 900px !important;
+}
+
+.height-10 {
+    height: 1000px !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;    
+}
+
+.list-style-none {
+    list-style: none !important;
+}
+
+.font-size-1 {
+    font-size: .5rem !important;    
+}
+
+.font-size-2 {
+    font-size: .75rem !important;    
+}
+
+.font-size-3 {
+    font-size: 1rem !important;    
+}
+
+.font-size-4 {
+    font-size: 1.5rem !important;    
+}
+
+.font-size-5 {
+    font-size: 3rem !important;    
+}
+.font-size-6 {
+    font-size: 4.5rem !important;    
+}
+.font-size-7 {
+    font-size: 6.75rem !important;    
+}
+.font-size-8 {
+    font-size: 10.12rem !important;    
+}
+.font-size-9 {
+    font-size: 15.18rem !important;    
+}
+.font-size-10 {
+    font-size: 22.77rem !important;    
+}
+
+.letter-spacing-1 {
+    letter-spacing: .25rem !important;
+}
+.letter-spacing-2 {
+    letter-spacing: .5rem !important;
+}
+.letter-spacing-3 {
+    letter-spacing: 1rem !important;
+}
+.letter-spacing-4 {
+    letter-spacing: 3rem !important;
+}
+.letter-spacing-5 {
+    letter-spacing: 4.5rem !important;
+}
+
+.font-weight-100 {
+    font-weight: 100 !important;
+}
+
+.font-weight-200 {
+    font-weight: 200 !important;
+}
+
+.font-weight-300 {
+    font-weight: 300 !important;
+}
+
+.font-weight-400 {
+    font-weight: 400 !important;
+}
+
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.font-weight-800 {
+    font-weight: 800 !important;
+}
+
+.font-weight-900 {
+    font-weight: 900 !important;
+}
+
+.font-weight-lighter {
+    font-weight: lighter !important;
+}
+
+.font-weight-bolder {
+    font-weight: bolder !important;
+}
+
+.text-salmon {    
+    color: rgba(248,79,114,.75) !important;
+}
+
+.text-decoration {
+    text-decoration: none !important; 
+    color: inherit !important;   
+}
+
+.btn-salmon {    
+    background: rgba(248,79,114,.75) !important;
+    margin: .25em;
+    width: 10rem;
+    color: #fff;
+}
+
+.btn-salmon:hover {    
+    background: #fff !important;    
+    width: 10rem;
+    color: rgba(248,79,114,.75);
+    border: 1px solid rgba(248,79,114,.75);
+}
+
+.btn-salmon-2 {    
+    background: rgba(248,79,114,.75) !important;
+    margin: .25em;
+    width: 10rem;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.btn-salmon-2:hover {    
+    background: #fff !important;    
+    width: 10rem;
+    color: rgba(248,79,114,.75) !important;
+    border: 1px solid rgba(248,79,114,.75);
+}
+
+.btn-radius-salmon {    
+    background: rgba(248,79,114,.75) !important;
+    display: inline-block;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    padding: .75rem;
+    line-height: 1;
+    border-radius: 100%;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+

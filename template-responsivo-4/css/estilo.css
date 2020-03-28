@@ -1,0 +1,176 @@
+
+body {
+    /*background: #1c1c1c !important; */
+    /* tom de roxo 56088c */
+    /* outro tom de roxo 210534 */ 
+    /* um tm de cinza escuro 1c1c1c */
+
+}
+
+/* Menu de navegação */
+
+.half-rule { 
+    margin-left: 0;
+    text-align: left;
+    width: 50%;
+ }
+
+nav ul li a {
+    color: #fff !important;
+    font-size: 1.15rem;
+    transition-duration: .35s !important;
+    margin-right: .5rem !important;
+}
+
+nav ul li a:hover {
+    color: #ff0059 !important;
+    transition-duration: .35s !important;
+}
+
+.btn-contato {
+    background: #fff !important;
+    color: #1c1c1c !important;
+    font-weight: 600 !important;
+}
+
+.btn-contato:hover {
+    background: #1c1c1c !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    width: 260px;
+}
+
+ul.dropdown-menu li a {
+    color: #ff0059 !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;    
+}
+
+ul.dropdown-menu li a:hover {
+    color: #1c1c1c !important;
+    font-weight: 500 !important;     
+}
+
+/* FIM Menu de navegação */
+
+/* @keyframes das thumbs */
+@keyframes thumbs {
+  0% {bottom: 0px;} 
+  50% {bottom: 500px;}
+  100% {bottom: 0px;}
+}
+
+.bg img {
+    display: block !important;
+    max-width: 100% !important;    
+    background-size: cover !important; 
+}  
+
+.bg {
+    padding: 0px !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    overflow-y: hidden !important;
+}
+
+.bg img:hover {
+    animation: thumbs 10s linear infinite;
+    position: relative;
+}
+/* FIM @keyframes das thumbs */
+
+
+/* Formatação dos textos em geral */
+
+ul li p {
+    margin: 1.5em auto !important;
+}
+
+/* Formatação dos textos em geral */
+
+
+/* Barra de Progresso */
+svg{width:15%;}
+
+/* BTN Voltar ao topo */
+
+#btn-voltar {
+    dislay: block;
+    position: fixed !important;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    opacity: .8;
+}      
+
+#btn-voltar:hover {
+    text-color: white !important;
+    opacity:1;
+}
+
+.r-project {
+    max-width: 130px !important;
+}
+
+/* BTN Voltar ao topo */    
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .nav-menu-header {
+        display: flex !important;
+        justify-content: center !important;
+            
+    }
+    
+    #nav-menu ul li,#nav-menu ul div {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
