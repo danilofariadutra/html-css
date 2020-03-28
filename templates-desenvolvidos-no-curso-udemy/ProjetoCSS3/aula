@@ -1,0 +1,121 @@
+DIV são elementos do tipo BLOCK
+Elementos Block ficam um abaixo do outro
+
+SPAN é um elemento do tipo inline, ele agrupa os elementos linha a linha
+
+DIV é utilizada para dividir a página e criar conteiners para conteúdo.
+
+Aula de Bordas: https://www.w3schools.com/css/css_border.asp
+
+Tipos de bordas:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+Exemplo:
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+FORMATAÇÃO E CORES
+
+TAGs 
+color: cor da fonte
+font-size: tamanho fonte em px
+font-family: tipos de fontes
+
+Ex.:
+
+.formatacao {
+            color: blue;
+            font-size: 30px;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+        }
+
+https://html-color-codes.info/Codigos-de-Cores-HTML/
+http://www.w3schools.com/css/css_font.asp
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+TAMANHOS DE TEXTOS  
+
+Tipos de parametros para o font-size:
+
+px -> tamanho fixo
+% -> tamanho relativo
+em -> tamanho relativo ao container pai (medida relativa ao parametro pai)
+
+ESTILOS DE TEXTOS
+
+https://www.w3schools.com/cssref/pr_font_font.asp
+
+Ex.:
+
+.negrito {
+            /* normal, bold, 100 até 900 */
+            font-weight: 900;
+        }
+        .italico {
+            font-size: italic;
+        }
+        .formatacao {
+            /* text-decoration: underline; */
+            /* text-decoration: line-through */
+            text-decoration: line-through;
+        }
+
+CORES DE FUNDO
+
+
+https://www.w3schools.com/css/css_background.asp
+
+IMAGEM DE FUNDO
+
+/* no-repeat (não repete)
+repeat-x (repete na horizontal)
+repeat-y (repete na vertical) 
+
+background-attachment: determina se o background é statico ou fixo
+fixed (fixada)
+scroll (rola junto com o conteúdo)
+            
+background-position: determina a posição da imagem
+center (centralizado)
+*/
+background-image: url('img/yoshi.png');
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center top; /* centralizada no topo */
+
+CONFIGURANDO PÁGINA DE css
+
+<link rel="stylesheet" type="text/css" href="/estilo.css">
+
+PARA ALINHAR UMA DIV NO CENTRO DA TELA
+
+body {
+        margin: 0px;
+        text-align: center;
+}
+
+div {
+        margin-left: auto;
+        margin-right: auto;
+}
